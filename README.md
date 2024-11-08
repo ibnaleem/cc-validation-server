@@ -14,7 +14,7 @@ A lightweight web server for validating credit card numbers, written in Go.
 
 ## Requirements
 
-- Go 1.18 or later.
+- Go 1.22.5 or later.
 - A terminal or command prompt to run the application.
 
 ## Building the Webserver
