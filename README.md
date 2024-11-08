@@ -1,3 +1,4 @@
+![build](https://github.com/ibnaleem/cc-validation-webserver/actions/workflows/go.yml/badge.svg?event=push)
 # Credit Card Validation Webserver
 A lightweight web server for validating credit card numbers, written in Go.
 
