@@ -149,4 +149,3 @@ if r.Header.Get("Content-Type") == "" {
 ## License
 
 This project is licensed under the GNU General Public License - see the [LICENSE](https://github.com/ibnaleem/cc-validation-webserver/blob/main/LICENSE) file for details.
-```
