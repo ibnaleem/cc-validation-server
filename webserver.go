@@ -1,3 +1,8 @@
+// Created by Ibn Aleem (github.com/ibnaleem)
+// Updated Friday 08 November, 2024 @ 12:22 GMT
+// Repository: https://github.com/ibnaleem/cc-validation-webserver
+// Issues: https://github.com/ibnaleem/cc-validation-webserver/issues
+
 package main
 
 import (
@@ -79,6 +84,7 @@ func validator(cc int) bool {
 }
 
 func main() {
+	fmt.Println(":: Please open issues @ https://github.com/ibnaleem/cc-validation-webserver/issues")
 	fmt.Printf(":: Webserver started on port %s ::\n", PORT)
 	http.HandleFunc("/", getRoot)
 	err := http.ListenAndServe(":" + PORT, nil)
