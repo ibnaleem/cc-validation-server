@@ -10,7 +10,7 @@ import (
 	"strconv"
 )
 
-var PORT = "3333"
+var PORT string = "3333"
 
 func getRoot(w http.ResponseWriter, r *http.Request) {
 
